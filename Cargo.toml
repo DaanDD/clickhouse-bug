@@ -1,0 +1,9 @@
+[package]
+name = "debug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clickhouse = "0.11.6"
+serde = { version ="1.0.203", features=["derive"] }
+tokio = { version = "1.38.0", features=["full"] }
